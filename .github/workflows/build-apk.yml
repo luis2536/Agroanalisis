@@ -3,7 +3,9 @@ name: Compilacion APK Android Capacitor
 on:
   push:
     branches:
+      - main
       - principal
+  workflow_dispatch:
 
 jobs:
   build:
